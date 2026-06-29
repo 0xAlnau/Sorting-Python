@@ -1,3 +1,4 @@
+from bucket_sort import *
 from insertion_sort import *
 from merge_sort import *
 
@@ -5,7 +6,10 @@ class Sorting():
     def __init__(self, llista):
         self.ll = llista
 
-    #def bucket_sort(self):
+    def bucket_sort(self):
+        llista = self.ll
+        bucket = bucket_sort(llista)
+        return bucket.sort()
 
     def insertion_sort(self):
         llista = self.ll

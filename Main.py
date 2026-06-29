@@ -30,7 +30,7 @@ print(f"La llista és: {llista}")
 
 print()
 print("Ara escull quin mètode d'ordenació vols utilitzar:")
-print(" 1 - Bucket Sort (O(n))")
+print(" 1 - Bucket Sort (O(n), només amb enters amb valors entre [0, m-1])")
 print(" 2 - Insertion Sort (O(n²))")
 print(" 3 - Merge Sort (n*log(n))")
 print(" 4 - Quick Sort (n*log(n))")
@@ -41,7 +41,7 @@ resultat = []
 s = Sorting(llista)
 
 if opcio == "1":
-    print("a")
+    resultat = s.bucket_sort()
 
 elif opcio == "2":
     resultat = s.insertion_sort()
