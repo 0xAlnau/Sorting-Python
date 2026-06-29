@@ -1,16 +1,20 @@
 from insertion_sort import *
+from merge_sort import *
 
 class Sorting():
     def __init__(self, llista):
         self.ll = llista
 
-    #def bucket_sort():
+    #def bucket_sort(self):
 
     def insertion_sort(self):
         llista = self.ll
         insertion = insertion_sort(llista)
         return insertion.sort()
 
-    #def merge_sort():
+    def merge_sort(self):
+        llista = self.ll
+        merge = merge_sort(llista)
+        return merge.sort()
 
-    #def quick_sort():
+    #def quick_sort(self):

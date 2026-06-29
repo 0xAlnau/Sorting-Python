@@ -47,7 +47,7 @@ elif opcio == "2":
     resultat = s.insertion_sort()
 
 elif opcio == "3":
-    print("c")
+    resultat = s.merge_sort()
 
 else:
     print("d")
