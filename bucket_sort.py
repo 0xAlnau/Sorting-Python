@@ -21,7 +21,6 @@ class bucket_sort():
                 j = llista[i]
                 buckets[j] += 1
 
-            res = []
             for i in range(m+1):
                 repeticions = buckets[i]
                 for j in range(repeticions):
