@@ -50,7 +50,7 @@ elif opcio == "3":
     resultat = s.merge_sort()
 
 else:
-    print("d")
+    resultat = s.quick_sort()
 
 print()
 print(f"La llista ordenada és: {resultat}")
